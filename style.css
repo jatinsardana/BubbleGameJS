@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html , body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Young Serif', serif;
+    color: wheat;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(83, 114, 92);
+}
+
+.table{
+    width: 80%;
+    height: 80%;
+    background-color: rgb(255, 199, 199);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.tabletop{
+    width: 100%;
+    height: 100px;
+    padding: 10px 20px;
+    background-color: rgb(9, 43, 9);
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.mainbox{
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.box{
+    height: 40px;
+    width: 40px;
+    background-color: rgba(83, 114, 92, 0.72);
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+}
+
+h1{
+    font-size: x-large;
+}
+
+.tablebottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    width: 100%;;
+    height: calc(100% - 100px);
+    padding: 10px 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ball{
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.ball:hover{
+    background-color: rgb(86, 14, 158);
+}
